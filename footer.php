@@ -59,5 +59,8 @@
 
 	</script>
 
+		<!-- inicio wp footer -->
+		<?php wp_footer(); ?>
+		<!-- final wp footer -->
 	</body>
 </html>
