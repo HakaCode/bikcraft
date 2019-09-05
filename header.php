@@ -19,7 +19,9 @@
 		<script src="js/libs/modernizr.custom.45655.js"></script>
 	</head>
 	<body>
-
+		<!-- inicio wp header -->
+		<?php wp_head(); ?>
+		<!-- final wp header -->
 		<header class="header">
 			<div class="container">
 				<a href="index.html" class="grid-4">
