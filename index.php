@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
 
 		<section class="introducao">
 			<div class="container">
@@ -87,4 +87,4 @@
 			</div>
 		</section>
 
-
+<?php get_footer(); ?>
