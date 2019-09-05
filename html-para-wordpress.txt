@@ -1,21 +1,21 @@
 // Instalar o Wordpress
 
-1 - Download do Wordpress (wordpress.org)
+0.1 - Download do Wordpress (wordpress.org)
 
-2 - Criar uma pasta do repositório de sites do MAMP
+0.2 - Criar uma pasta do repositório de sites do MAMP
 
-3 - Extrair os arquivos do Wordpress nela
+0.3 - Extrair os arquivos do Wordpress nela
 
-4 - Criar um Banco de Dados no phpMyAdmin
+0.4 - Criar um Banco de Dados no phpMyAdmin
 Abra o phpMyAdmin > Databates > Escolha o nome > Clique em Create
 
-5 - Criar o usuário do Banco de Dados
+0.5 - Criar o usuário do Banco de Dados
 phpMyAdmin > Users > Add User > Nome, host(localhost), password.
 Maque Check All em Global Privileges
 
-6 - Acessar o site e instalar o Wordpress
+0.6 - Acessar o site e instalar o Wordpress
 
-7 - Criar o usuário do wordpress
+0.7 - Criar o usuário do wordpress
 
 // Após Instalar o Wordpress
 
