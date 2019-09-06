@@ -3,6 +3,8 @@
 get_header();
 ?>
 
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); //(if)se tiver post(s), (while)enquanto tiver post(s) mostra o post.?>
 		<section class="introducao-interna interna_contato">
 			<div class="container">
 				<h1>Contato</h1>
@@ -48,5 +50,7 @@ get_header();
 		<section class="container contato_mapa">
 			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 		</section>
+<?php endwhile; else: endif; ?>
+
 
 <?php get_header(); ?>
