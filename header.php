@@ -29,10 +29,10 @@
 				</a>
 				<nav class="grid-12 header_menu">
 					<ul>
-						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="portfolio.html">Portfólio</a></li>
-						<li><a href="contato.html">Contato</a></li>
+						<li><a href="/bikcraft/sobre/">Sobre</a></li>
+						<li><a href="/bikcraft/produtos/">Produtos</a></li>
+						<li><a href="/bikcraft/portfolio/">Portfólio</a></li>
+						<li><a href="/bikcraft/contato/">Contato</a></li>
 					</ul>
 				</nav>
 			</div>
