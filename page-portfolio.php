@@ -5,12 +5,8 @@ get_header();
 
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); //(if)se tiver post(s), (while)enquanto tiver post(s) mostra o post.?>
-		<section class="introducao-interna interna_portfolio">
-			<div class="container">
-				<h1>Portfólio</h1>
-				<p>conheça os projetos que amamos mostrar</p>
-			</div>
-		</section>
+
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); // TEMPLATEPATH busca caminho para incluir informações de outras paginas que smp se repetem, "." no php é o mesmo que "somar".?>
 
 		<section class="container animar-interno">
 			<ul class="rslides">
